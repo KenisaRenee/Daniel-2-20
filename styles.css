@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One&family=Kumar+One+Outline&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./images/DSC00913.JPG) no-repeat;
+    background-position: top 60% left 90%;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    width: 100%;
+    flex-direction: column;
+}
+
+.first {
+    width: 60%;
+}
+
+h1 {
+    color: #f2f2f2;
+    font-family: 'Kumar One Outline', cursive;
+    font-size: 60px;
+    margin-top: -3%;
+}
+
+.second {
+    width: 60%;
+    text-align: right;
+    margin-top: -3%;
+}
+
+h2 {
+    font-family: 'Kumar One', cursive;
+    color: #f2f2f2;
+    font-size: 40px;
+}
+
+.quote {
+    font-family: 'Kumar One', cursive;
+    font-size: 70px;
+    color: #f2f2f2;
+}
