@@ -46,3 +46,21 @@ h2 {
     font-size: 70px;
     color: #f2f2f2;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-position: top 70% left 80%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    .quote {
+        font-size: 30px;
+    }
+}
